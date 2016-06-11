@@ -1,0 +1,15 @@
+.intervalTimeSkip {
+	float: right;
+
+	font-size: 20px;
+}
+
+.intervalTime {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.intervalSpeedIndicate {
+	display: block;
+	margin-bottom: 50px;
+}

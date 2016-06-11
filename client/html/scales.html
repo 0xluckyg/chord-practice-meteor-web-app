@@ -1,0 +1,24 @@
+<template name="scales">
+
+ 	{{ > navigation }}
+
+	<main id="panel">
+
+	    <i class="togglebtn fa fa-bars" aria-hidden="true"></i>
+
+		<div class="contentDiv">
+			<p class="scaleScale"></p>
+			<div class="scaleTimeSkip">
+				<p class="scaleTime">T</p>
+				<p class="scaleSkip">Skip</p>
+			</div>
+		</div>
+
+		<div class="speedDiv">
+				<p class="scaleSpeedIndicate">Speed: <span class="scaleSpeedIndicateSpan">5</span></p>
+				<input type="range" min="1" max="60" name="speedRange" class="speedRange" value="5">
+		</div>
+
+	</main>
+
+</template>

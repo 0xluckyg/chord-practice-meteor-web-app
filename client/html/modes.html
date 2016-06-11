@@ -1,0 +1,24 @@
+<template name="modes">
+
+ 	{{ > navigation }}
+
+	<main id="panel">
+
+	    <i class="togglebtn fa fa-bars" aria-hidden="true"></i>
+
+		<div class="contentDiv">
+			<p class="modesMode"></p>
+			<div class="modeTimeSkip">
+				<p class="modeTime">T</p>
+				<p class="modeSkip">Skip</p>
+			</div>
+		</div>
+
+		<div class="speedDiv">
+				<p class="modeSpeedIndicate">Speed: <span class="modeSpeedIndicateSpan">5</span></p>
+				<input type="range" min="1" max="60" name="speedRange" class="speedRange" value="5">
+		</div>
+
+	</main>
+
+</template>

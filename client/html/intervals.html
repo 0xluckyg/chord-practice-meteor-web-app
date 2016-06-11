@@ -1,0 +1,24 @@
+<template name="intervals">
+
+ 	{{ > navigation }}
+
+	<main id="panel">
+
+	    <i class="togglebtn fa fa-bars" aria-hidden="true"></i>
+
+		<div class="contentDiv">
+			<p class="intervalsInterval"></p>
+			<div class="intervalTimeSkip">
+				<p class="intervalTime">T</p>
+				<p class="intervalSkip">Skip</p>
+			</div>
+		</div>
+
+		<div class="speedDiv">
+				<p class="chordSpeedIndicate">Speed: <span class="intervalSpeedIndicateSpan">5</span></p>
+				<input type="range" min="1" max="60" name="speedRange" class="speedRange" value="5">
+		</div>
+
+	</main>
+
+</template>

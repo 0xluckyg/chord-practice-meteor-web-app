@@ -1,0 +1,24 @@
+<template name="chords">
+
+ 	{{ > navigation }}
+
+	<main id="panel">
+
+	    <i class="togglebtn fa fa-bars" aria-hidden="true"></i>
+
+		<div class="contentDiv">
+			<p class="chordsChord"></p>
+			<div class="chordTimeSkip">
+				<p class="chordTime">T</p>
+				<p class="chordSkip">Skip</p>
+			</div>
+		</div>
+
+		<div class="speedDiv">
+				<p class="chordSpeedIndicate">Speed: <span class="chordSpeedIndicateSpan">5</span></p>
+				<input type="range" min="1" max="60" name="speedRange" class="speedRange" value="5">
+		</div>
+
+	</main>
+
+</template>

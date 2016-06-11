@@ -1,0 +1,24 @@
+<template name="notes">
+
+ 	{{ > navigation }}
+
+	<main id="panel">
+
+	    <i class="togglebtn fa fa-bars" aria-hidden="true"></i>
+
+		<div class="contentDiv">
+			<p class="noteNote"></p>
+			<div class="noteTimeSkip">
+				<p class="noteTime">T</p>
+				<p class="noteSkip">Skip</p>
+			</div>
+		</div>
+
+		<div class="speedDiv">
+				<p class="noteSpeedIndicate">Speed: <span class="noteSpeedIndicateSpan">5</span></p>
+				<input type="range" min="1" max="60" name="speedRange" class="speedRange" value="5">
+		</div>
+
+	</main>
+
+</template>
